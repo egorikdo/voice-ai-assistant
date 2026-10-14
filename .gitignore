@@ -1,0 +1,32 @@
+# Секреты
+.env
+.env.*
+!.env.example
+
+# Базы, пользовательские данные
+*.db
+*.db-*
+*.sqlite3
+
+# Модели Vosk и файлы звука
+vosk-model-*/
+models/
+*.ogg
+*.wav
+*.mp3
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+.coverage
+
+# IDE / ОС
+.vscode/
+.idea/
+.DS_Store
+
+# Логи
+*.log

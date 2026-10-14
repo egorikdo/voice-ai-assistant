@@ -1,0 +1,3 @@
+aiogram>=3,<4
+vosk==0.3.44
+python-dotenv>=1,<2
